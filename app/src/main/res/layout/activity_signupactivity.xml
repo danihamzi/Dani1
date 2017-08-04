@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.raodanish.dani1.signupactivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="97dp"
+        android:layout_marginRight="37dp"
+        android:text="Already Have an Account?   Sign in"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="signin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginRight="67dp"
+        android:background="#ffffff"
+        android:text="Register"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="460dp"
+        android:layout_marginRight="53dp"
+        android:background="#ffffff"
+        android:ems="11"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/et_repass"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="335dp"
+        android:layout_marginRight="67dp"
+        android:background="#ffffff"
+        android:ems="11"
+        android:hint="Re-type Password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="377dp"
+        android:layout_marginRight="67dp"
+        android:background="#ffffff"
+        android:ems="11"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="419dp"
+        android:layout_marginRight="53dp"
+        android:background="#ffffff"
+        android:ems="11"
+        android:hint="Email or Phone Number"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+</android.support.constraint.ConstraintLayout>

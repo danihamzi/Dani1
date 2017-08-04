@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dani1</string>
+    <string name="boolawa">boolawa</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="textview">have already account? sign in</string>
+    <string name="already_hdave_an_account_sign_in">Already Hdave an Account? Sign in</string>
+    <string name="button">Button</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.raodanish.dani1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/mTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="239dp"
+        android:layout_marginRight="220dp"
+        android:text="@string/boolawa"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:text="@string/sign_in"
+        android:textColor="@color/colorAccent"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="112dp"
+
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:elevation="6dp"
+        android:text="@string/sign_up"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="51dp"
+        android:onClick="signup"
+        tools:ignore="RtlHardcoded" />
+
+
+</android.support.constraint.ConstraintLayout>
+
